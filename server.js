@@ -6,7 +6,7 @@ const app = express();
 
 const upload = multer({ dest: "uploads/" }); // 이미지를 저장할 경로를 지정합니다.
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 app.use(bodyParser.json());
 
